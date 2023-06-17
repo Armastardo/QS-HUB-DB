@@ -1084,6 +1084,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/bbr_b/Documents/MechanicalKeyboards/SM04B-SRSS-TB.STEP"
+      (offset (xyz 0 1.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Package_TO_SOT_SMD:SOT-23-6" (layer "F.Cu")
@@ -9895,6 +9900,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e89a49e6-74b5-4f09-8cd4-31d70a7f37e3))
   (gr_line (start 177.18 45.894771) (end 79.2 45.894771)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f6af7a73-0733-4564-a26f-2c9ece2dc22b))
+  (gr_text "https://github.com/Armastardo/QS-HUB-DB" (at 175.06 44.01) (layer "B.SilkS") (tstamp 019460e4-360e-4100-9974-d0fca5693d3e)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom mirror))
+  )
   (gr_text "19.99" (at 78.21 33.58 270) (layer "B.SilkS") (tstamp 8d0aafee-28ef-44a9-a72a-0c87ed89ed42)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom mirror))
   )
